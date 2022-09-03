@@ -15,7 +15,10 @@ struct NotificationView: View {
         Text("Notification")
         
         if let notification = notification {
-            Text(notification.request.content.body)
+            VStack {
+                Text(notification.request.content.body)
+                Text(String(describing: notification.request.content.userInfo))
+            }
         }
     }
 }

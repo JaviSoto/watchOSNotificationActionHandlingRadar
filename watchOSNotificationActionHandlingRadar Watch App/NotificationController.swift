@@ -9,11 +9,10 @@ import SwiftUI
 import UserNotifications
 
 final class NotificationController: WKUserNotificationHostingController<NotificationView> {
-    @State
     var notification: UNNotification?
     
     override var body: NotificationView {
-        return NotificationView()
+        return NotificationView(notification: notification)
     }
 
     override func didReceive(_ notification: UNNotification) {
