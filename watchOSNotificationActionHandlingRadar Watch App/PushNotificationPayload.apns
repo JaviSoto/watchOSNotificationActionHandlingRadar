@@ -1,0 +1,19 @@
+{
+    "aps": {
+        "alert": {
+            "body": "Test message",
+
+        },
+        "category": "notification_category_identifier",
+        "thread-id": "5280"
+    },
+    
+    "WatchKit Simulator Actions": [
+        {
+            "title": "First Button",
+            "identifier": "firstButtonAction"
+        }
+    ],
+    
+    "custom_payload_identifier": "42"
+}

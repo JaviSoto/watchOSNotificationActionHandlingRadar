@@ -12,6 +12,10 @@
 		5943918F28C3FD05008DA656 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5943918E28C3FD05008DA656 /* ContentView.swift */; };
 		5943919128C3FD06008DA656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5943919028C3FD06008DA656 /* Assets.xcassets */; };
 		5943919428C3FD06008DA656 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5943919328C3FD06008DA656 /* Preview Assets.xcassets */; };
+		5943919F28C3FD1E008DA656 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5943919E28C3FD1E008DA656 /* NotificationView.swift */; };
+		594391A128C3FD2C008DA656 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594391A028C3FD2C008DA656 /* NotificationController.swift */; };
+		594391A328C3FDAF008DA656 /* PushNotificationPayload.apns in Resources */ = {isa = PBXBuildFile; fileRef = 594391A228C3FDAF008DA656 /* PushNotificationPayload.apns */; };
+		594391A428C3FDAF008DA656 /* PushNotificationPayload.apns in Resources */ = {isa = PBXBuildFile; fileRef = 594391A228C3FDAF008DA656 /* PushNotificationPayload.apns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,9 @@
 		5943918E28C3FD05008DA656 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5943919028C3FD06008DA656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5943919328C3FD06008DA656 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5943919E28C3FD1E008DA656 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		594391A028C3FD2C008DA656 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		594391A228C3FDAF008DA656 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +87,9 @@
 			children = (
 				5943918C28C3FD05008DA656 /* watchOSNotificationActionHandlingRadarApp.swift */,
 				5943918E28C3FD05008DA656 /* ContentView.swift */,
+				594391A028C3FD2C008DA656 /* NotificationController.swift */,
+				5943919E28C3FD1E008DA656 /* NotificationView.swift */,
+				594391A228C3FDAF008DA656 /* PushNotificationPayload.apns */,
 				5943919028C3FD06008DA656 /* Assets.xcassets */,
 				5943919228C3FD06008DA656 /* Preview Content */,
 			);
@@ -173,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594391A328C3FDAF008DA656 /* PushNotificationPayload.apns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +193,7 @@
 			files = (
 				5943919428C3FD06008DA656 /* Preview Assets.xcassets in Resources */,
 				5943919128C3FD06008DA656 /* Assets.xcassets in Resources */,
+				594391A428C3FDAF008DA656 /* PushNotificationPayload.apns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +206,8 @@
 			files = (
 				5943918F28C3FD05008DA656 /* ContentView.swift in Sources */,
 				5943918D28C3FD05008DA656 /* watchOSNotificationActionHandlingRadarApp.swift in Sources */,
+				594391A128C3FD2C008DA656 /* NotificationController.swift in Sources */,
+				5943919F28C3FD1E008DA656 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
